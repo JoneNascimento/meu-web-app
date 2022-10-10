@@ -26,7 +26,7 @@ def lista_random(m, n, i, f):
 
 
 if pagina == 'Boas-Vindas':
-	foto = Image.open('jone.png')
+	foto = Image.open('foto.png')
 	st.image(foto,
 		caption='Logo do Streamlit',
 		use_column_width=False)
